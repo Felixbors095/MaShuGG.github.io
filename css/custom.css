@@ -1,3 +1,6 @@
+@keyframes covet {
+  from {transform: translateX(0.3);}to {transform: translateX(1);}
+}
 /* 页脚与头图透明 */
 #footer {
     background: transparent !important;
@@ -91,7 +94,7 @@
 
 /* 个人信息Follow me按钮 */
 #aside-content > .card-widget.card-info > #card-info-btn {
-  background-color: #3eb8be;
+  background-color: #0dccd648;
   border-radius: 8px;
 }
 /* 夜间模式菜单栏发光字 */
@@ -120,7 +123,7 @@
   }
   
   #cursor.hidden {
-    opacity: 0;
+    opacity: 0.1;
   }
   
   #cursor.hover {
@@ -195,3 +198,4 @@
     transition: .3s;
     top: -8px
 }
+
